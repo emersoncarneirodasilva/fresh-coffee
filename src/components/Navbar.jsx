@@ -57,7 +57,7 @@ const Navbar = () => {
             isNavOpen
               ? "flex-col flex gap-6 text-center items-center text-3xl"
               : "hidden text-base gap-4"
-          } md:text-2xl sm:flex scroll-smooth`}
+          } lg:text-2xl sm:flex scroll-smooth`}
         >
           <li className="transition-all duration-300 hover:brightness-90">
             <Link href="/" onClick={isNavOpen && toggleMenuHandler}>
